@@ -1,0 +1,632 @@
+Running on 2 MPI processes with 2 threads per process.
+MPI Process 1: Read N=20, K=3, D=2.500000, TCount=10
+MPI Process 1: Read point 1: x1=0.000000, x2=2.000000, a=1.000000, b=0.500000
+MPI Process 1: Read point 2: x1=1.500000, x2=3.500000, a=0.800000, b=0.300000
+MPI Process 1: Read point 3: x1=2.000000, x2=4.000000, a=1.200000, b=0.100000
+MPI Process 1: Read point 4: x1=1.000000, x2=2.500000, a=1.500000, b=0.600000
+MPI Process 1: Read point 5: x1=0.500000, x2=2.500000, a=1.100000, b=0.700000
+MPI Process 1: Read point 6: x1=2.500000, x2=3.500000, a=1.300000, b=0.200000
+MPI Process 1: Read point 7: x1=1.200000, x2=3.200000, a=0.700000, b=0.400000
+MPI Process 1: Read point 8: x1=0.000000, x2=1.500000, a=1.600000, b=0.900000
+MPI Process 1: Read point 9: x1=3.000000, x2=4.000000, a=0.500000, b=0.200000
+MPI Process 1: Read point 10: x1=2.000000, x2=3.000000, a=0.900000, b=0.400000
+MPI Process 1: Read point 11: x1=1.000000, x2=2.000000, a=1.400000, b=0.500000
+MPI Process 1: Read point 12: x1=0.500000, x2=3.500000, a=1.200000, b=0.300000
+MPI Process 1: Read point 13: x1=2.000000, x2=4.000000, a=0.800000, b=0.600000
+MPI Process 1: Read point 14: x1=1.500000, x2=3.000000, a=1.000000, b=0.200000
+MPI Process 1: Read point 15: x1=3.000000, x2=4.500000, a=0.900000, b=0.700000
+MPI Process 1: Read point 16: x1=1.000000, x2=2.500000, a=1.100000, b=0.300000
+MPI Process 1: Read point 17: x1=2.500000, x2=4.000000, a=1.300000, b=0.500000
+MPI Process 1: Read point 18: x1=0.000000, x2=2.000000, a=1.700000, b=0.800000
+MPI Process 1: Read point 19: x1=3.500000, x2=5.000000, a=0.600000, b=0.100000
+MPI Process 1: Read point 20: x1=1.000000, x2=2.500000, a=1.000000, b=0.400000
+MPI Process 1: World size is 2
+MPI Process 1: Handling points from 10 to 20
+MPI Process 1: Calculating for t = -1.000000
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 0: Read N=20, K=3, D=2.500000, TCount=10
+MPI Process 0: Read point 1: x1=0.000000, x2=2.000000, a=1.000000, b=0.500000
+MPI Process 0: Read point 2: x1=1.500000, x2=3.500000, a=0.800000, b=0.300000
+MPI Process 0: Read point 3: x1=2.000000, x2=4.000000, a=1.200000, b=0.100000
+MPI Process 0: Read point 4: x1=1.000000, x2=2.500000, a=1.500000, b=0.600000
+MPI Process 0: Read point 5: x1=0.500000, x2=2.500000, a=1.100000, b=0.700000
+MPI Process 0: Read point 6: x1=2.500000, x2=3.500000, a=1.300000, b=0.200000
+MPI Process 0: Read point 7: x1=1.200000, x2=3.200000, a=0.700000, b=0.400000
+MPI Process 0: Read point 8: x1=0.000000, x2=1.500000, a=1.600000, b=0.900000
+MPI Process 0: Read point 9: x1=3.000000, x2=4.000000, a=0.500000, b=0.200000
+MPI Process 0: Read point 10: x1=2.000000, x2=3.000000, a=0.900000, b=0.400000
+MPI Process 0: Read point 11: x1=1.000000, x2=2.000000, a=1.400000, b=0.500000
+MPI Process 0: Read point 12: x1=0.500000, x2=3.500000, a=1.200000, b=0.300000
+MPI Process 0: Read point 13: x1=2.000000, x2=4.000000, a=0.800000, b=0.600000
+MPI Process 0: Read point 14: x1=1.500000, x2=3.000000, a=1.000000, b=0.200000
+MPI Process 0: Read point 15: x1=3.000000, x2=4.500000, a=0.900000, b=0.700000
+MPI Process 0: Read point 16: x1=1.000000, x2=2.500000, a=1.100000, b=0.300000
+MPI Process 0: Read point 17: x1=2.500000, x2=4.000000, a=1.300000, b=0.500000
+MPI Process 0: Read point 18: x1=0.000000, x2=2.000000, a=1.700000, b=0.800000
+MPI Process 0: Read point 19: x1=3.500000, x2=5.000000, a=0.600000, b=0.100000
+MPI Process 0: Read point 20: x1=1.000000, x2=2.500000, a=1.000000, b=0.400000
+MPI Process 0: World size is 2
+MPI Process 0: Handling points from 0 to 10
+MPI Process 0: Calculating for t = -1.000000
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = -1.000000
+MPI Process 1: Calculating for t = -0.800000
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = -0.600000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = -0.400000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = -0.200000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = 0.000000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = 0.200000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = 0.400000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = 0.600000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = 0.800000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Calculating for t = 1.000000
+MPI Process 1: OpenMP Thread 1 is processing point 10
+MPI Process 1: OpenMP Thread 1 is processing point 11
+MPI Process 1: OpenMP Thread 1 is processing point 12
+MPI Process 1: OpenMP Thread 1 is processing point 13
+MPI Process 1: OpenMP Thread 1 is processing point 14
+MPI Process 1: OpenMP Thread 0 is processing point 0
+MPI Process 1: OpenMP Thread 0 is processing point 1
+MPI Process 1: OpenMP Thread 0 is processing point 2
+MPI Process 1: OpenMP Thread 0 is processing point 3
+MPI Process 1: OpenMP Thread 0 is processing point 4
+MPI Process 1: OpenMP Thread 0 is processing point 5
+MPI Process 1: OpenMP Thread 0 is processing point 6
+MPI Process 1: OpenMP Thread 0 is processing point 7
+MPI Process 1: OpenMP Thread 1 is processing point 15
+MPI Process 1: OpenMP Thread 1 is processing point 16
+MPI Process 1: OpenMP Thread 0 is processing point 8
+MPI Process 1: OpenMP Thread 0 is processing point 9
+MPI Process 1: OpenMP Thread 1 is processing point 17
+MPI Process 1: OpenMP Thread 1 is processing point 18
+MPI Process 1: OpenMP Thread 1 is processing point 19
+MPI Process 1: Calling GPU for distance calculation
+MPI Process 1: Finished GPU distance calculations
+MPI Process 1: Point 11 satisfies Proximity Criteria
+MPI Process 1: Point 12 satisfies Proximity Criteria
+MPI Process 1: Point 13 satisfies Proximity Criteria
+MPI Process 1: Finished execution
+MPI Process 0: Calculating for t = -0.800000
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = -0.800000
+MPI Process 0: Calculating for t = -0.600000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = -0.600000
+MPI Process 0: Calculating for t = -0.400000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = -0.400000
+MPI Process 0: Calculating for t = -0.200000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = -0.200000
+MPI Process 0: Calculating for t = 0.000000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = 0.000000
+MPI Process 0: Calculating for t = 0.200000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = 0.200000
+MPI Process 0: Calculating for t = 0.400000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = 0.400000
+MPI Process 0: Calculating for t = 0.600000
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = 0.600000
+MPI Process 0: Calculating for t = 0.800000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = 0.800000
+MPI Process 0: Calculating for t = 1.000000
+MPI Process 0: OpenMP Thread 1 is processing point 10
+MPI Process 0: OpenMP Thread 1 is processing point 11
+MPI Process 0: OpenMP Thread 1 is processing point 12
+MPI Process 0: OpenMP Thread 1 is processing point 13
+MPI Process 0: OpenMP Thread 1 is processing point 14
+MPI Process 0: OpenMP Thread 1 is processing point 15
+MPI Process 0: OpenMP Thread 1 is processing point 16
+MPI Process 0: OpenMP Thread 1 is processing point 17
+MPI Process 0: OpenMP Thread 1 is processing point 18
+MPI Process 0: OpenMP Thread 1 is processing point 19
+MPI Process 0: OpenMP Thread 0 is processing point 0
+MPI Process 0: OpenMP Thread 0 is processing point 1
+MPI Process 0: OpenMP Thread 0 is processing point 2
+MPI Process 0: OpenMP Thread 0 is processing point 3
+MPI Process 0: OpenMP Thread 0 is processing point 4
+MPI Process 0: OpenMP Thread 0 is processing point 5
+MPI Process 0: OpenMP Thread 0 is processing point 6
+MPI Process 0: OpenMP Thread 0 is processing point 7
+MPI Process 0: OpenMP Thread 0 is processing point 8
+MPI Process 0: OpenMP Thread 0 is processing point 9
+MPI Process 0: Calling GPU for distance calculation
+MPI Process 0: Finished GPU distance calculations
+MPI Process 0: Point 1 satisfies Proximity Criteria
+MPI Process 0: Point 2 satisfies Proximity Criteria
+MPI Process 0: Point 3 satisfies Proximity Criteria
+MPI Process 0: Found 3 points satisfying criteria at t = 1.000000
+MPI Process 0: Finished execution

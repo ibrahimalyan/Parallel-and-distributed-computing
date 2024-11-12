@@ -1,0 +1,11 @@
+Points 1, 2, 3 satisfy Proximity Criteria at t = -1.000000
+Points 1, 2, 3 satisfy Proximity Criteria at t = -0.800000
+Points 1, 2, 3 satisfy Proximity Criteria at t = -0.600000
+Points 1, 2, 3 satisfy Proximity Criteria at t = -0.400000
+Points 1, 2, 3 satisfy Proximity Criteria at t = -0.200000
+Points 1, 2, 3 satisfy Proximity Criteria at t = 0.000000
+Points 1, 2, 3 satisfy Proximity Criteria at t = 0.200000
+Points 1, 2, 3 satisfy Proximity Criteria at t = 0.400000
+Points 1, 2, 3 satisfy Proximity Criteria at t = 0.600000
+Points 1, 2, 3 satisfy Proximity Criteria at t = 0.800000
+Points 1, 2, 3 satisfy Proximity Criteria at t = 1.000000
